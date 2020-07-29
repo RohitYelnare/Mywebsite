@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <!--Beta Warning
+    <script>
+      alert("Note: This website is currently under development. One or more features of this website might not function properly.");
+    </script>
+  -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,38 +20,65 @@
 
 <body>
 
+  <!-- Nav Bar -->
   <section id="nav_menu">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid" >
-      <!-- Nav Bar -->
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid" >
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span><p>Home</p>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav ml-auto mr-auto nav-fill w-100">
-                <li class="nav-item">
-                <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="">Skills</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="">Projects</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+          <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav ml-auto mr-auto nav-fill w-100">
+                  <li class="nav-item">
+                  <a class="nav-link" href="">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
   </section>
 
+  <!-- Title -->
+  <div class="parallax">
+    <h1 class="display-4">HELLO,<br>I'M ROHIT<br>YELNARE</h1>
+    <p class="lead">Full Stack Developer and programming enthusiast</p>
+  </div>
+    
+    <!-- Skills -->
+    <div class="container-fluid" id="skills">
+      <h1 class="display-4" style="text-align: center; padding-top: 5%;">Skills</h1>
+      <div class="container ml-auto mr-auto">
+        <div class="row d-flex justify-content-center" style="padding: 0% 7%;">
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/c-programming.png"/><p>C</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/python.png"/><p>Python</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/html-5.png"/><p>HTML5</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/css3.png"/><p>CSS3</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/javascript.png"/><p>Javascript</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/git.png"/><p>Git</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/mongodb.png"/><p>MongoDB</p></div>
+          <div id="icon"><img src="https://img.icons8.com/officel/96/000000/react.png"/><p>React</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/nodejs.png"/><p>Nodejs</p></div>
+          <div id="icon"><img src="https://img.icons8.com/ios-filled/96/000000/jquery.png"/><p>jQuery</p></div>
+          <div id="icon"><img src="https://img.icons8.com/color/96/000000/npm.png"/><p>npm</p></div>
+          <div id="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1920px-PHP-logo.svg.png" width="96" style="padding-top: 22.075px; padding-bottom: 22.075px"/><p>PHP</p></div>
+        </div>
+      </div>
+    </div>
+  <div class="parallax"></div>
 
 </body>
 </html>
